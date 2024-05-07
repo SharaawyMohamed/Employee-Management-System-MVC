@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }</script>
+    <!-- Custom Theme files -->
+    <link href="~/css/AuthStyleSheet.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //Custom Theme files -->
+    <!-- Web Font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="~/css/AuthStyleSheet.css" />
+    <!-- //Web Font -->
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="main-w3layouts wrapper">
+        <h1>@ViewData["Title"]</h1>
+        @RenderBody();
+        <!-- Copyright -->
+        <div class="colorlibcopy-agile">
+            <p>&copy; @DateTime.Now.Year Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+        </div>
+        <!-- //Copyright -->
+        <ul class="colorlib-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	@await RenderSectionAsync("validation", required: true)
+</body>
+</html>

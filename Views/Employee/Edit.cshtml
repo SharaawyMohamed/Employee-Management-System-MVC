@@ -1,0 +1,30 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h1>Edit Employee</h1>
+    @if (Model.ImageName is not null)
+    {
+        //<div class="form-control">
+        <img class="mt-3" src="~/Files/Images/@Model.ImageName" width="200" height="200" alt="Employee's Image'" class="rounded" />
+        //</div>
+    }
+</div>
+<div>                                     @* to throw image name for controller *@
+    <form method="post" asp-action="Edit" enctype="multipart/form-data">
+
+        <partial name="PartialView/_Create_Edit_PartialView" model="@Model" />
+
+        <button type="submit" class="btn btn-outline-info">Save Changes</button>
+        <a asp-action="Index" class="btn btn-outline-info">Cancel</a>
+    </form>
+</div>
+
+
+@* clien side validation or Front end validation or jquery validation *@
+@section ClientSidValidation {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,15 @@
+﻿@model EmployeeViewModel
+@{
+	ViewData["Title"] = "Delete";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+	<form method="post" asp-action="Delete">
+
+		<partial name="PartialView/_Delete_Details_PartialView" model="@Model" />
+
+		<button type="submit" class="btn btn-outline-info">Delete</button>
+		<a asp-action="Index" class="btn btn-outline-info">Cancel</a>
+	</form>
+</div>

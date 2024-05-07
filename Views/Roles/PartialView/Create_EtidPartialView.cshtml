@@ -1,0 +1,15 @@
+﻿@model RoleViewModel
+@* @{
+	var Departments = new SelectList(ViewBag.Departments,"Id","Name");
+} *@
+@* <input hidden asp-for="Imagename" /> *@
+
+<div class="form-grop">
+
+	<label class="col-form-label" asp-for="Name"></label>
+	<input class="form-control" asp-for="Name" />
+	<span asp-validation-for="Name"></span>
+
+</div>
+
+
