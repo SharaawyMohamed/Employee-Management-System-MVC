@@ -1,0 +1,16 @@
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\bin\Debug\net5.0\BLL.deps.json
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\bin\Debug\net5.0\BLL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\bin\Debug\net5.0\BLL.pdb
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\bin\Debug\net5.0\DAL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\bin\Debug\net5.0\DAL.pdb
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.csproj.Up2Date
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\refint\BLL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.pdb
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\ref\BLL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\BLL\obj\Debug\net5.0\BLL.sourcelink.json
