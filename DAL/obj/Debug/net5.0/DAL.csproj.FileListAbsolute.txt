@@ -1,0 +1,13 @@
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\bin\Debug\net5.0\DAL.deps.json
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\bin\Debug\net5.0\DAL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\bin\Debug\net5.0\DAL.pdb
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\refint\DAL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.pdb
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\ref\DAL.dll
+F:\ROUTE\Aliaa\07 MVC\MVC_Project\MVCProject\DAL\obj\Debug\net5.0\DAL.sourcelink.json
