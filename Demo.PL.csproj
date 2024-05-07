@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Files\Images\EmployeeController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Department\Details.cshtml~RF19ff951.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MailKit" Version="4.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="MimeKit" Version="4.5.0" />
+    <PackageReference Include="Twilio" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Files\Videos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\CheckYourInBox.cshtml" />
+    <None Include="Views\Account\ForgetPassword.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Account\Register.cshtml" />
+    <None Include="Views\Account\ResetPassword.cshtml" />
+    <None Include="Views\Roles\Create.cshtml" />
+    <None Include="Views\Roles\Delete.cshtml" />
+    <None Include="Views\Roles\Details.cshtml" />
+    <None Include="Views\Roles\Edit.cshtml" />
+    <None Include="Views\Roles\Index.cshtml" />
+    <None Include="Views\Roles\PartialView\Create_EtidPartialView.cshtml" />
+    <None Include="Views\Roles\PartialView\Delete_DetailsPartialView.cshtml" />
+    <None Include="Views\Users\Delete.cshtml" />
+    <None Include="Views\Users\Details.cshtml" />
+    <None Include="Views\Users\Edit.cshtml" />
+    <None Include="Views\Users\Index.cshtml" />
+    <None Include="Views\Users\PartialView\Delete_DetailsPartialView.cshtml" />
+    <None Include="wwwroot\css\Home.css" />
+  </ItemGroup>
+
+</Project>
